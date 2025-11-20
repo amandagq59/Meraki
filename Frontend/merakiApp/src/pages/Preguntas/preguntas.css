@@ -1,0 +1,54 @@
+.section-preguntas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2)),
+    url('/images/paisajes/volcan.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  color: var(--letra-color);
+
+  h2,
+  h3 {
+    font-size: 50px;
+  }
+}
+
+.section-dudas {
+  color: var(--primary-color);
+
+  .fondo-preguntas {
+    width: 50%;
+    margin: 5rem;
+    background-color: rgba(242, 242, 242, 0.947);
+    border-radius: 16px;
+    font-size: 20px;
+
+    details {
+      text-align: center;
+      width: 100%;
+      border-bottom: 1px solid rgb(168, 145, 145);
+      border-style: bottom dashed;
+      padding: 2rem;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      user-select: none;
+
+      summary {
+        color: var(--primary-color);
+      }
+    }
+    .border-none {
+      border: none;
+    }
+    details:hover {
+      background-color: var(--primary-dark-color);
+      color: var(--letra-color);
+    }
+
+    .icono-what {
+      height: 50px;
+    }
+    .border-end {
+      border: none;
+    }
+  }
+}

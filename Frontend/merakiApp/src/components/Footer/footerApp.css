@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--primary-color);
+  color: var(--letra-color);
+  
+  .links {
+    text-decoration: none;
+    color: var(--letra-color);
+  }
+
+  .img-logo {
+    height: 150px;
+  }
+
+}
+

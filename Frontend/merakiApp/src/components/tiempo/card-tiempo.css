@@ -1,0 +1,12 @@
+.datos-tiempo{
+height: 190vh;
+
+.card-tiempo{
+  background-color: cornflowerblue;
+  color: white;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  height: 100%;
+  border-radius: 20px;
+}
+}

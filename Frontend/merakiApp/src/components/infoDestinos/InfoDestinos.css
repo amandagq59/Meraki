@@ -1,0 +1,44 @@
+.section-infoDestino {
+  padding-block: 2rem;
+  .datos-destino {
+    width: 60%;
+    text-align: center;
+    img {
+      height: 400px;
+    }
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border-style: hidden;
+
+    tr th:first-child {
+      border-top-left-radius: 20px;
+    }
+    tr td:first-child {
+      border-bottom-left-radius: 20px;
+    }
+
+    tr th:last-child {
+      border-top-right-radius: 20px;
+    }
+
+    tr td:last-child {
+      border-bottom-right-radius: 20px;
+    }
+
+    th,
+    td {
+      padding: 1rem;
+    }
+
+    th {
+      background-color: #6bbcff96;
+      color: var(--primary-dark-color);
+      
+    }
+  }
+}

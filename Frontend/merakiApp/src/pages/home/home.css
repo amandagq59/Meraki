@@ -1,0 +1,23 @@
+.section-portada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)),
+    url('/images/about/portada.png');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+
+  .logo {
+    transform: translate(-100px, 40px);
+    img {
+      height: 180px;
+    }
+  }
+}
+
+
+.img-home {
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}

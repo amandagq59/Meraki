@@ -1,0 +1,18 @@
+
+nav {
+  background-color: var(--primary-color);
+  padding-block: 1rem;
+  .img-logo{
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .links {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+  }
+
+}

@@ -1,0 +1,46 @@
+
+
+
+.div-form {
+  padding-block: 3rem;
+  h2 {
+    padding-block: 1rem;
+  }
+
+  .formulario-registro {
+    padding: 2rem;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+
+    .div-input {
+      display: flex;
+      flex-direction: column;
+      margin-block: 0.5rem;
+
+      input {
+        padding-block: 0.7rem;
+        padding-inline: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid var(--primary-color);
+      }
+    }
+
+    .div-check {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .div-btn{
+      display: flex;
+      padding-block: 0.5rem;
+      gap: 1rem;
+    }
+    
+    .text-span{
+      font-size: .8rem;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+}

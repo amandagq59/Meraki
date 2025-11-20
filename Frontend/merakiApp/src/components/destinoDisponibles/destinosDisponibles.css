@@ -1,0 +1,46 @@
+article {
+ .carrusel-container{
+animation: slide-animation 30s infinite linear;
+ }
+  
+
+  .div-imagen {
+    position: relative;
+    .img-card {
+      aspect-ratio: 1/1;
+      border-radius: 20px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .div-info {
+      position: absolute;
+      inset-block-end: 0;
+      background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.9)
+      );
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 100%;
+      padding: 1rem;
+
+      h3 {
+        color: white;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.771);
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@keyframes slide-animation {
+  0% {
+    transform: translateX(0);
+  } 
+  50% {
+    transform: translateX(-20%);
+  } 
+}
