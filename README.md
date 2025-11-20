@@ -1,4 +1,4 @@
-🚀 Este fin de semana, en mis ratos libres, creé Meraki: una maquetación inicial realizada como práctica de una app para gestionar y reservar viajes en grupo.
+🚀 Meraki es una maquetación inicial realizada como práctica de una app para gestionar y reservar viajes en grupo.
 
 ⭐ Elegí llamarla Meraki, una palabra de origen griego que significa hacer algo con alma, con creatividad y poniendo una parte de ti en ello.
 Para mí, eso resume cómo veo la programación: no solo escribir código, sino aprender, experimentar y disfrutar del proceso mientras construyes algo paso a paso.
